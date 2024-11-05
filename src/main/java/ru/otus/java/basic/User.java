@@ -7,19 +7,21 @@ public class User {
     private final int birthYear;
     private final String email;
 
+    public String getFullName() {
+        return fullName;
+    }
+
     public int getBirthYear() {
         return birthYear;
     }
 
-    public User(String fullName, int birthYear, String email) {
-        this.fullName = fullName;
-        this.birthYear = birthYear;
-        this.email = email;
+    public String getEmail() {
+        return email;
     }
 
-    public String getUserInfo() {
-        Joiner joiner = Joiner.on(";").skipNulls();
-
-        return joiner.join("ФИО:" + fullName, "Год рождения:" + birthYear,"E-mail:" + email);
+    public User(String fullName, int birthYear, String email) {
+        this.fullName = fullName;
+        this.birthYear = Math.abs(birthYear);
+        this.email = email;
     }
 }

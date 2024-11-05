@@ -5,11 +5,15 @@ import ru.otus.java.basic.User;
 public class UserTest {
     @Test
     void testGetUserInfo() {
+        String fullName = "Константинопольский Константин Константинович";
+        int birthYear = 1999;
+        String email="KonstantinKK@email.ru";
         User user = new User(
-                "Константинопольский Константин Константинович", 1999, "KonstantinKK@email.ru"
+                fullName, birthYear, email
         );
-        String userInfoActual =
-                "ФИО:Константинопольский Константин Константинович;Год рождения:1999;E-mail:KonstantinKK@email.ru";
-        Assertions.assertEquals(user.getUserInfo(), userInfoActual);
+
+        Assertions.assertEquals(user.getFullName(), fullName);
+        Assertions.assertEquals(user.getBirthYear(), birthYear);
+        Assertions.assertEquals(user.getEmail(), email);
     }
 }
