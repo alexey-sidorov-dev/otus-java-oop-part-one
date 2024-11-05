@@ -31,7 +31,7 @@ public class Main {
         for (User user : users) {
             if (currentYear - user.getBirthYear() > Math.abs(age)) {
                 System.out.println(
-                        "ФИО:" + user.getFullName() + ";" + "Год рождения:" + user.getBirthYear() + ";" + "E-mail:" + user.getEmail()
+                        "ФИО: " + user.getFullName() + "; " + "Год рождения: " + user.getBirthYear() + "; " + "E-mail: " + user.getEmail()
                 );
             }
         }
