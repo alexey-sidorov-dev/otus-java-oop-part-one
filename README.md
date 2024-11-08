@@ -5,7 +5,8 @@
 ---
 [![Actions Status](https://github.com/alexey-sidorov-dev/otus-java-oop-part-one/workflows/Build/badge.svg)](https://github.com/alexey-sidorov-dev/otus-java-oop-part-one/actions)
 [![Actions Status](https://github.com/alexey-sidorov-dev/otus-java-oop-part-one/workflows/Check/badge.svg)](https://github.com/alexey-sidorov-dev/otus-java-oop-part-one/actions)
-[![LICENSE](https://img.shields.io/badge/license-ISC-brightgreen.svg)](ISC)
+![Language](https://img.shields.io/github/languages/top/alexey-sidorov-dev/otus-java-oop-part-one)
+[![License](https://img.shields.io/github/license/alexey-sidorov-dev/otus-java-oop-part-one)](https://github.com/alexey-sidorov-dev/otus-java-oop-part-one/blob/master/LICENSE)
 
 ### Цель
 
