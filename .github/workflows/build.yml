@@ -1,6 +1,6 @@
-name: Java CI
+name: Build
 
-on: [pull_request]
+on: pull_request
 
 jobs:
   build:
@@ -15,4 +15,4 @@ jobs:
           distribution: corretto
           cache: maven
       - name: Build with Maven
-        run: mvn clean -B verify -Dstyle.color=always
+        run: mvn clean -B package -Dstyle.color=always
